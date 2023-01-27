@@ -1,12 +1,23 @@
 h1{
+    
     text-align: center;
-    color:rgb(59, 59, 110)
+    color:rgb(59, 59, 110);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    position: relative;
+    top:50px;
+    left: 20%;
+    background-color: rgb(167, 45, 41);
 }
 
 #tab {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 30%;
+  text-align: center;
+  left: 50px;
+  position: relative;
   }
   
   #tab td, #tab th {
@@ -20,12 +31,7 @@ h1{
 #tab th {
   padding-top: 12px;
   padding-bottom: 12px;
-  text-align: left;
-  background-color: #3e5a50;
+  text-align: center;
+  background-color: #114b97;
   color: white;
-}
-button{
-    position: relative;
-    top:50px;
-    left: 50%;
 }
